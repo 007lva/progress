@@ -1,6 +1,9 @@
 require "./progress/*"
 
 class ProgressBar
+  @total : Float64
+  @width : Float64
+
   property complete, incomplete, step, width, total
   getter current
 
